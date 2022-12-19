@@ -1,0 +1,240 @@
+:root {
+  --brand-color: #4d5ae5;
+  --headings-text-color: #2e2f42;
+  --text-color: #434455;
+  --background-color: #ffffff;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* ==================== HEADER ==================== */
+.web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.studio {
+  font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-color);
+}
+.menu-item {
+  color: var(--text-color);
+  font-weight: 600;
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--brand-color);
+}
+.contact-mail {
+  color: var(--text-color);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--brand-color);
+}
+
+.contact-tel {
+  color: var(--text-color);
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--brand-color);
+}
+
+/* ==================== /HEADER ==================== */
+
+/* ==================== HERO ==================== */
+.hero{
+  background-color: var(--headings-text-color);
+}
+.hero-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 56px;
+line-height: 1,07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+.hero-btn{
+  background-color: var(--brand-color);
+  color: #ffffff;
+  font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1,19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+  color: #ffffff;
+  background-color: #404BBF;
+  cursor: pointer;
+}
+/* ==================== /HERO ==================== */
+
+/* ==================== ADVANTAGES ==================== */
+.advantages-title{display: none;}
+.list-element .list-title{
+  font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+}
+
+/* ==================== /ADVANTAGES ==================== */
+
+/* ==================== IMG-LIST ==================== */
+.img-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1,11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+/* ==================== /IMG-LIST ==================== */
+
+/* ==================== TEAM ==================== */
+.team{
+  background-color: #F4F4FD;
+}
+.team-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1,11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--headings-text-color)
+}
+.teammate{
+  background-color: #ffffff;
+}
+.teammate-name{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--headings-text-color);
+}
+/* ==================== /TEAM ==================== */
+
+/* ==================== FOOTER ==================== */
+
+.footer-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.footer-studio {
+  font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.footer{
+  background-color: var(--headings-text-color);
+  color: #E7E9FC;
+}
+
+
+/* ==================== /FOOTER ==================== */
+
+
+
+/* ==================== PORTFOLIO PAGE ==================== */
+
+/* ==================== FILTER ==================== */
+
+.filter-btn{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--brand-color);
+background-color:#F4F4FD ;
+
+}
+.filter-btn:hover,
+.filter-btn:focus{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color:var(--brand-color) ;
+cursor: pointer;
+
+}
+/* ==================== /FILTER ==================== */
+.filter-title{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color:var(--headings-text-color)
+}
+.filter-text{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+
+/* ==================== /PORTFOLIO PAGE ==================== */
+
