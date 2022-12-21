@@ -19,7 +19,7 @@ body {
 }
 
 /* ==================== HEADER ==================== */
-.logo{
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -27,15 +27,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
-
 }
 
 .studio {
-color: var(--text-color);
+  color: var(--text-color);
 }
+
 .menu-item {
-  color: var(--headings-text-color));
   font-weight: 600;
+  color: var(--headings-text-color);
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -60,140 +60,137 @@ color: var(--text-color);
 /* ==================== /HEADER ==================== */
 
 /* ==================== HERO ==================== */
-.hero{
+.hero {
   background-color: var(--headings-text-color);
 }
-.hero-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.hero-btn{
+.hero-btn {
   background-color: var(--brand-color);
   color: #ffffff;
-  font-family: 'Roboto';
-font-weight: 600;
-line-height: 1.19;
-letter-spacing: 0.04em;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
 }
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /* ==================== /HERO ==================== */
 
 /* ==================== ADVANTAGES ==================== */
-.advantages-title{display: none;}
-.list-element .list-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--headings-text-color);
+.advantages-title {
+  display: none;
+}
+.list-element .list-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headings-text-color);
 }
 
 /* ==================== /ADVANTAGES ==================== */
 
 /* ==================== IMG-LIST ==================== */
-.img-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--headings-text-color);
+.img-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
 }
 /* ==================== /IMG-LIST ==================== */
 
 /* ==================== TEAM ==================== */
-.team{
-  background-color: #F4F4FD;
+.team {
+  background-color: #f4f4fd;
 }
-.team-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--headings-text-color)
+.team-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
 }
-.teammate{
+.teammate {
   background-color: #ffffff;
 }
-.teammate-name{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--headings-text-color);
+.teammate-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headings-text-color);
 }
 /* ==================== /TEAM ==================== */
 
 /* ==================== FOOTER ==================== */
 
-
 .footer-studio {
-color: #F4F4FD;
+  color: #f4f4fd;
 }
-.footer{
+.footer {
   background-color: var(--headings-text-color);
-  color: #E7E9FC;
+  color: #e7e9fc;
 }
-
 
 /* ==================== /FOOTER ==================== */
-
-
 
 /* ==================== PORTFOLIO PAGE ==================== */
 
 /* ==================== FILTER ==================== */
 
-.filter-btn{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--brand-color);
-background-color:#F4F4FD ;
-
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  background-color: #f4f4fd;
 }
 .filter-btn:hover,
-.filter-btn:focus{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color:var(--brand-color) ;
-cursor: pointer;
-
+.filter-btn:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--brand-color);
+  cursor: pointer;
 }
 /* ==================== /FILTER ==================== */
-.filter-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--headings-text-color)
+.filter-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headings-text-color);
 }
-.filter-text{
-font-family: 'Roboto', sans-serif;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--text-color)
+.filter-text {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* ==================== /PORTFOLIO PAGE ==================== */
-
